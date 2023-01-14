@@ -1,0 +1,37 @@
+/* Google Font-Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+/* font */
+body{
+  font-family: Work Sans;
+}
+/* -nav-bar-style-section 
+-------------------------*/
+.navbar-div-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+     list-style-type: none;
+     display: flex;
+     margin-right: 240px;
+}
+ul li{
+    padding: 1em;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    font-weight: 500;
+    
+
+}
+ul a{
+    text-decoration: none;
+}
+.G3-Architects-text-h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+    margin-left: 228px;
+}
