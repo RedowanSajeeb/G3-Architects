@@ -11,10 +11,23 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.G3-Architects-text-h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+    margin-left: 228px;
+    margin-top: 50px;
+}
 ul{
      list-style-type: none;
      display: flex;
      margin-right: 240px;
+     margin-top: 63px;
+     font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    
 }
 ul li{
     padding: 1em;
@@ -22,16 +35,17 @@ ul li{
     font-size: 18px;
     color: #424242;
     font-weight: 500;
-    
+    text-align: center;
 
 }
 ul a{
     text-decoration: none;
+    color: #424242;
 }
-.G3-Architects-text-h1{
-    font-weight: 700;
-    font-size: 45px;
-    text-align: center;
-    color: #131313;
-    margin-left: 228px;
+/*----------- banar-section-style
+-----------------------------*/
+.banar-div-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
