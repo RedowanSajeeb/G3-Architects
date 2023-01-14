@@ -6,6 +6,9 @@ body{
 }
 /* -nav-bar-style-section 
 -------------------------*/
+.header-body-color{
+    background: rgba(255, 144, 14, 0.1);
+}
 .navbar-div-class{
     display: flex;
     align-items: center;
@@ -44,8 +47,45 @@ ul a{
 }
 /*----------- banar-section-style
 -----------------------------*/
+.first-bannar-photo{
+margin-bottom: 45px;
+
+
+}
 .banar-div-section{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.BrandNew-text, .BrandNew-Gtext{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.BrandNew-Gtext{
+    margin-top: -35px;
+}
+.banar-div-section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -15px;
+}
+/* button style(1) ---
+---------------------*/
+.btn-style{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 50px;
 }
