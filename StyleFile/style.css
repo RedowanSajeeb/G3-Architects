@@ -112,3 +112,43 @@ margin-bottom: 45px;
 .quick-text-section{
     margin-left: 73px;
 }
+/* Features you will love & enjoy-section-style
+------------------------------------------------ */
+.Features-section-parent{
+        display: flex;     
+}
+.boder-F{
+    border-left: 5px solid #FF900E;
+    padding: 0.01em 20px;
+    color: #131313;
+}
+.ptag-style-class{
+    margin-top: 8px;
+    margin-bottom: 30px;
+
+}
+.Features-textBox{
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    /* border: 1px solid; 
+    box-shadow: 5px 10px #eeeeee; */
+
+
+}
+.features-section-blogs-text{
+    flex-direction: column;
+    margin-left: 240px;
+    margin-top: 130px;
+}
+.features-section-blogs-text h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.architect-photo-WoMan{
+    margin-right: 240px;
+    margin-top: 130px;
+    margin-left: 146px;
+}
