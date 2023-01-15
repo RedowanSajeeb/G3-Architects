@@ -134,6 +134,16 @@ margin-bottom: 45px;
     /* border: 1px solid; 
     box-shadow: 5px 10px #eeeeee; */
 }
+.Features-textBox h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.Features-textBox p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
 .features-section-blogs-text{
     flex-direction: column;
     margin-left: 240px;
@@ -152,6 +162,7 @@ margin-bottom: 45px;
 .architect-photo-WoMan{
     
 }
+/* button-style */
 #btn-experience{
     width: 342px;
     height: 200px;
@@ -164,4 +175,68 @@ margin-bottom: 45px;
 #btn-experience:hover{
     background-color: rgba(255, 144, 14, 0.1);
     color: #000000;
+}
+#btn-experience h1{
+    font-weight: 700;
+    font-size: 65px;
+}
+#span-btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+/* Some Facts-section-tyle */
+.some-facts-text-sextion{
+    margin-left: 240px;
+
+}
+.some-facts-text-sextion h1{
+    font-weight: 700;
+    font-size: 45px; 
+    color: #131313;  
+}
+.some-facts-text-sextion p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+.Some-Facts-icon-section{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+    margin-top: 100px;
+   
+}
+.FACTS-BOX{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* * Some Facts-text-
+
+----------------------------------*/ 
+.FACTS-BOX img{
+    margin-top: 45px;
+}
+.FACTS-BOX h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 8px;
+
+}
+.FACTS-BOX p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: -20px;
 }
