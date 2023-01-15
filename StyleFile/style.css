@@ -112,6 +112,13 @@ margin-bottom: 45px;
 .quick-text-section{
     margin-left: 73px;
 }
+.quick-text-section #tx-xolor{
+    color: #727272;
+}
+.quick-text-section h1{
+    font-weight: 500;
+    font-size: 45px;
+}
 /* Features you will love & enjoy-section-style
 ------------------------------------------------ */
 .Features-section-parent{
@@ -239,6 +246,71 @@ margin-bottom: 45px;
     font-size: 20px;
     color: #727272;
     margin-top: -20px;
+}
+/* Let's keep in touch-section-style
+exta-------------------------------
+..................................... */
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	width: 945px;
+	height: 474px;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(0, 128, 255, 0.2);
+    margin: auto;
+    margin-top: 70px;
+}
+.subscribe__title {
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 18px;
+}
+
+.subscribe__copy {
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 53px;
+	line-height: 1.5;
+}
+
+.form {
+	margin-bottom: 25px;
+}
+
+.form__email {
+	padding: 20px 25px;
+	border-radius: 5px;
+ 	border: 1px solid #CAD3DB;
+	width: 431px;
+	font-size: 18px;
+	color: #0F121F;
+}
+
+.form__email:focus {
+	outline: 1px solid #FF900E;
+}
+
+.form__button {
+	background: #FF900E;
+	padding: 10px;
+	border: none;
+	width: 244px;
+	height: 65px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+	box-shadow: 0 4px 20px rgba(255, 209, 123, 0.7);
+}
+
+.form__button:hover {
+	box-shadow: 0 10px 20px rgba(240, 8, 8, 0.1);
+}
+
+.notice {
+	width: 345px;
 }
 /* Our Sponspors-section-style
 ------------------------------
