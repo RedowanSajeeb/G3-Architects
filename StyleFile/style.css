@@ -490,7 +490,7 @@ footer div > p{
     align-items: center;
 	justify-content: center;
     background: white;
-	width: 345px;
+	width: 328px;
 	height: 374px;
 	border-radius: 2px;
 	box-shadow: 0 8px 5px rgba(0, 128, 255, 0.2);
@@ -499,7 +499,7 @@ footer div > p{
 }
 
 .subscribe__copy{
-    width: 350px;
+    width: 330px;
     height: 20px;
 }
 .form__email,.form__button{
@@ -517,29 +517,25 @@ footer div > p{
 .notice__copy,.notice{
     display: none;
 }
-
+/* footer-section-style--------------- */
+@media only screen and (max-width:576px){
+    .aboutfooter, .footerp-tag{
+        display:block;
+        color:#424242;
+        padding:0px;
+        margin: 0px;
+        background: #FFF4E7;
+    border-radius: 8px;
+    }
+    .aboutfooter{
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .footerp-tag{
+        padding: 10px;
+        margin-bottom: 30px;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.mnoneD{
-    display: none;
 }
+/* ------------------------------------- */
