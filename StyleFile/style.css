@@ -227,6 +227,10 @@ margin-bottom: 45px;
 .FACTS-BOX img{
     margin-top: 45px;
 }
+.FACTS-BOX:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+    color: #000000;
+}
 .FACTS-BOX h1{
     font-weight: 600;
     font-size: 45px;
@@ -243,6 +247,16 @@ margin-bottom: 45px;
 /* Our Sponspors-section-style
 ------------------------------
 --------------------------- */
+.our-text{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponspors-text-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
 .sponspors-text-section{
     text-align: center;
     margin-top: 180px;
@@ -256,4 +270,21 @@ margin-bottom: 45px;
     padding: 50px;
     mix-blend-mode: luminosity;
     
+}
+/* --------------------------- */
+/* footer-section-style--------------- */
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 216px;  
+}
+footer div > p{
+    text-align: center;
+    padding: 39px 410px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #424242;
 }
