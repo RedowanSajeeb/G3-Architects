@@ -302,7 +302,7 @@ exta-------------------------------
 	border-radius: 5px;
 	font-size: 18px;
 	color: white;
-	box-shadow: 0 4px 20px rgba(255, 209, 123, 0.7);
+	box-shadow: 0 4px 20px rgba(255, 194, 81, 0.7);
 }
 
 .form__button:hover {
@@ -357,3 +357,82 @@ footer div > p{
 /* <<<<<<<<<<<<<<<<<CSS Media Queries>>>>>>>>>>>>>>>>>>>>>>>> */
                     /* breakpoints */
 /* <<<<<<<<<<<<<<<<<CSS Media Queries>>>>>>>>>>>>>>>>>>>>>>>> */
+@media only screen and (max-width:576px){
+/*>>>>>>>>>>>>>>>>>>>>> Hader-section
+............-Media Queries>>>>>>>>>>> */
+    .header-body-color{
+        background: rgba(255, 144, 14, 0.1);
+    }        
+    .navbar-div-class{
+        flex-direction: column;
+    }
+    ul{
+       margin-left: 0px;
+       margin-top: -20px;
+       display: flex;
+       flex-direction: column;
+       
+   }
+    .BrandNew-Gtext , 
+    .BrandNew-text{
+
+        font-size: 35px;
+        margin: top -200px;  
+    }
+.first-bannar-photo{
+    height: 100%px;
+    width: 90%;
+}
+.G3-Architects-text-h1{
+   text-align: center;
+   font-size: 20px;
+   margin: 0px;
+   margin-top: 5px;
+}
+.BrandNew-text{
+    margin-left: -50px;
+}
+.banar-div-section{
+    margin-left: 3px;
+    padding-left: 5px;
+}
+
+/* teamPhto-Quick-section-Media Queries>.
+....
+....>>>>>>>>>>>>>>>> */
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mnoneD{
+    display: none;
+}
