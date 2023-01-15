@@ -240,3 +240,20 @@ margin-bottom: 45px;
     color: #727272;
     margin-top: -20px;
 }
+/* Our Sponspors-section-style
+------------------------------
+--------------------------- */
+.sponspors-text-section{
+    text-align: center;
+    margin-top: 180px;
+}
+.Sponspors-icons{
+    text-align: center;
+    background: #ffffff;
+    
+}
+.Sponspors-icons img{
+    padding: 50px;
+    mix-blend-mode: luminosity;
+    
+}
