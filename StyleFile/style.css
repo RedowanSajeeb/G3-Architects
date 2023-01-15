@@ -115,7 +115,7 @@ margin-bottom: 45px;
 /* Features you will love & enjoy-section-style
 ------------------------------------------------ */
 .Features-section-parent{
-        display: flex;     
+        display: flex;    
 }
 .boder-F{
     border-left: 5px solid #FF900E;
@@ -125,7 +125,6 @@ margin-bottom: 45px;
 .ptag-style-class{
     margin-top: 8px;
     margin-bottom: 30px;
-
 }
 .Features-textBox{
     padding: 30px;
@@ -134,8 +133,6 @@ margin-bottom: 45px;
     border-radius: 8px;
     /* border: 1px solid; 
     box-shadow: 5px 10px #eeeeee; */
-
-
 }
 .features-section-blogs-text{
     flex-direction: column;
@@ -151,4 +148,20 @@ margin-bottom: 45px;
     margin-right: 240px;
     margin-top: 130px;
     margin-left: 146px;
+}
+.architect-photo-WoMan{
+    
+}
+#btn-experience{
+    width: 342px;
+    height: 200px;
+    margin-top: -150px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0em;
+}
+#btn-experience:hover{
+    background-color: rgba(255, 144, 14, 0.1);
+    color: #000000;
 }
